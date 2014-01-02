@@ -30,6 +30,8 @@ extract( $wppa_container );
 		<?php $pub->the_authors(); ?>
 		<?php $pub->the_uri(); ?>
 		<?php $pub->the_summary(); ?>
+	<!-- List other downloads hack -->
+	<?php $pub->list_downloads(); ?>
 	    <?php $pub->the_keywords(); ?>
 		<?php $pub->the_categories(); ?>
 	</div>
